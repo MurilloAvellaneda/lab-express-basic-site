@@ -1,0 +1,131 @@
+html, body {
+    margin: 0
+}
+
+#background {
+    background-image: url("https://www.teahub.io/photos/full/64-641818_mac-imac-27-eminem-wallpapers-hd-desktop-backgrounds.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#welcome {
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 25px 0 25px 125px;
+    display: block;
+    width: 30vw;
+}
+
+.nav-item:hover{
+    color: rgb(189,35,18);
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    height: 20vh;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .image-gallery {
+    height: 75vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
